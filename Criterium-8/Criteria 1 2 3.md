@@ -1,0 +1,1 @@
+[link voor de retrospective](https://youtu.be/Dcg1R2oFRs0)
