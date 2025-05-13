@@ -1,25 +1,45 @@
 # Teamafspraken en bewijsvoering
 
-Dit document is geschreven op basis van mijn huidige stage bij StoryTailors aangezien mijn portfolio project in mijn eentje is uitgevoerd. Het is een samenvatting van de afspraken die ik heb gemaakt met mijn teamgenoten en hoe we deze afspraken hebben vastgelegd.
+## 1. Daily Standups
+**Afspraak:** Wij developers houden iedere werkdag één daily standup om 09:30 in de ontwikkelruimte (of via Teams als iemand remote werkt).
 
-## Afspraak 1: Daily Standups
-- **Wat**: Ons team houdt elke werkdag een daily standup van 9:00 tot 9:15 uur.
-- **Wie**: Scrum Master Henk leidt de sessie, alle teamleden zijn aanwezig.
-- **Waar**: In vergaderruimte of aan de eet tafel. Hier is ook een scherm aanwezig.
-- **Hoe**: Elk teamlid beantwoordt: 1) Wat heb ik gisteren gedaan? 2) Wat ga ik vandaag doen? 3) Welke hindernissen zal ik vandaag tegenaan lopen? 4) Wat had ik gisteren kunnen doen om mijn werk te verbeteren?
-- **Wanneer**: Van 12 februari 2025 tot 21 juni 2025 (einde stageperiode)
-- **Opvolging**: Bij afwezigheid zonder voorafgaande melding wordt dit besproken in het wekelijkse teamoverleg. Gemiste informatie moet dezelfde dag nog worden gedeeld via Google Chat.
+**Details:**
+- Tijdsduur: Maximaal 20 minuten
+- Verantwoordelijke: Scrum Master zorgt dat iedereen aan bod komt
+- Inhoud: Elk teamlid beantwoordt: (1) Wat heb ik gisteren gedaan? (2) Wat ga ik vandaag doen? (3) Waar loop ik tegenaan?
+- Registratie: Blokkades worden genoteerd in het Trello board.
 
-## Afspraak 2: Diagram Review
-- **Wat**: Elke werkdag beginnen alle developers met 20 minuten diagram review.
-- **Wie**: Fabian en Dico zijn verantwoordelijk voor het bijwerken van diagrammen, alle developers nemen deel.
-- **Waar**: In ontwikkelruimte met toegang tot projectdiagrammen op GitHub Project board.
-- **Hoe**: We kijken naar class diagrams, ERD's en wireframes voordat we aan user stories beginnen.
-- **Wanneer**: Dagelijks van 9:15 tot 9:35, hele stageperiode.
+**Bewijs van naleving:** 
+- Aanwezigheidsregistratie in ons Jira/Confluence project
+- Screenshot van impediment log die laat zien dat blokkades tijdig zijn gemeld
 
-## Afspraak 3: Code Reviews
-- **Wat**: Code mag alleen naar de main branch na goedkeuring van minimaal één andere developer.
-- **Wie**: Iedere developer is verantwoordelijk voor het reviewen van code binnen 4 uur na pull request.
-- **Waar**: Via GitHub pull requests in het StoryTailors ERD Software repository.
-- **Hoe**: Reviewer controleert op bugs, stijl volgens afgesproken coding standards en test coverage >80%.
-- **Wanneer**: Bij elke pull request, gedurende hele stageproject.
+## 2. Design First Aanpak
+**Afspraak:** Binnen de eerste 30 minuten van elke werkdag bekijkt elk teamlid de relevante diagrammen voordat er wordt begonnen met coderen.
+
+**Details:**
+- Tijdstip: Dagelijks tussen 9:00-9:30 (vóór standup)
+- Documentatie: ERD, klassendiagrammen en wireframes in Figma
+- Verantwoordelijke: Lead Developer controleert dat dit gebeurt
+- Doel: Voorkomen van onnodige technische schuld en stagnatie
+
+**Bewijs van naleving:**
+- Comments in de code die refereren naar specifieke diagrammen
+- Pull requests bevatten referenties naar de geraadpleegde documentatie
+
+## 3. Code Review Proces
+**Afspraak:** Alle code moet door minimaal één andere developer worden gereviewed voordat deze naar de main branch kan worden gemerged.
+
+**Details:**
+- Review criteria: Functionaliteit, leesbaarheid, testbaarheid, performance
+- Maximale responstijd op review verzoek: 4 werkuren
+- Verantwoordelijke: Elke developer is verantwoordelijk voor het aanvragen van reviews
+- Proces: Pull request via GitHub met minimaal één goedkeuring vereist
+
+**Bewijs van naleving:**
+- GitHub pull request history met commentaren en goedkeuringen
+- Wekelijkse code review statistieken (aantal reviews per persoon)
+
+## 4. Communicatie buiten standups
+**Afspraak:** Bij blokkades die niet kunnen wachten tot de volgende standup, wordt direct gecommuniceerd via het team-kanaal in Teams.
+
+
